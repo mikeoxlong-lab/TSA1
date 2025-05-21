@@ -1,5 +1,127 @@
 <html lang="en">
 <head>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Siangio_Second Formative Assessment</title>
+    <style>
+    table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    }
+    th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    }
+    th {
+    background-color: #c0d6e4;
+    }
+    .supplier {
+    background-color: #ffe599;
+    }
+    .highlight {
+    color: red;
+    }
+    form {
+    margin-top: 40px;
+    width: 50%;
+    }
+    input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    }
+    .required {
+    color: red;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <h2>INVENTORY SYSTEMS</h2>
+    <table>
+    <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Quantity</th>
+    <th>Supplier</th>
+    <th>Date</th>
+    <th>Image</th>
+    </tr>
+    <tr>
+    <td>10001</td>
+    <td>Boy Bawang Adobo (pc)</td>
+    <td>1000</td>
+    <td class="supplier" rowspan="3">KSK</td>
+    <td>5/14/2019</td>
+    <td rowspan="8">
+    <img src="boybawang.jpg" alt="Boy Bawang" width="170">
+    </td>
+    </tr>
+    <tr>
+    <td>10002</td>
+    <td>Boy Bawang Adobo (pack)</td>
+    <td>200</td>
+    <td>5/14/2019</td>
+    </tr>
+    <tr>
+    <td>10003</td>
+    <td>Boy Bawang Garlic (pc)</td>
+    <td>3000</td>
+    <td>5/15/2019</td>
+    </tr>
+    <tr>
+    <td>10004</td>
+    <td>Boy Bawang Garlic (pack)</td>
+    <td class="highlight">150</td>
+    <td class="supplier">KSK</td>
+    <td>5/15/2019</td>
+    </tr>
+    <tr>
+    <td>10005</td>
+    <td>Boy Bawang Spicy (pc)</td>
+    <td>4000</td>
+    <td class="supplier">KSK</td>
+    <td>5/16/2019</td>
+    </tr>
+    <td>10006</td>
+    <td>Boy Bawang Spicy (pack)</td>
+    <td>240</td>
+    <td class="supplier">KSK</td>
+    <td>5/16/2019</td>
+    </tr>
+    <tr>
+    <td>10007</td>
+    <td>Boy Bawang BBQ (pc)</td>
+    <td>3000</td>
+    <td class="supplier">KSK</td>
+    <td>5/17/2019</td>
+    </tr>
+    <tr>
+    <td>10008</td>
+    <td>Boy Bawang BBQ (pack)</td>
+    <td>210</td>
+    <td class="supplier">KSK</td>
+    <td>5/17/2019</td>
+    </tr>
+    </table>
+    
+    
+    
+    <form>
+        <ul>
+        <li>Your Name*<br><input type="text" name="name" required></li>
+        <li>Email*<br><input type="email" name="email" required></li>
+        <li>Contact No.*<br><input type="tel" name="contact" required></li>
+        <li>Message<br><textarea name="message" rows="4"></textarea></li>
+        </ul>
+        <p class="required">* required field</p>
+        <button type="submit">Send</button>
+        </form>
+        
+        </body>
+        </html>
 <meta charset="UTF-8">
 <title>Formative Assessment 1</title>
 </head>
